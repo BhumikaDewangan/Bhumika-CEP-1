@@ -1,5 +1,5 @@
 ---
-- hosts: webserver
+- hosts: Webserver
   become: true
   tasks:
   - name: update the apt-get repo
