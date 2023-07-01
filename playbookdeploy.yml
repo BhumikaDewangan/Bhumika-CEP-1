@@ -1,5 +1,5 @@
 ---
-- hosts: webserver
+- hosts: Webserver
   become: true
   tasks:
   - name: clone the repo with java code on every worker node
